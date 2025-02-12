@@ -1,0 +1,4 @@
+namespace newprofiler {
+int test();
+}
+    
