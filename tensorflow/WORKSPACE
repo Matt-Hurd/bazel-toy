@@ -1,1 +1,6 @@
 workspace(name = "org_tensorflow")
+
+local_repository(
+    name = "org_profiler",
+    path = "../profiler",  # Adjust path as needed
+)

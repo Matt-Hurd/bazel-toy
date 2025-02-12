@@ -1,8 +1,10 @@
+#include "internal/pywrap_profiler_plugin.h" // Include the header
+
 namespace tensorflow {
 namespace profiler {
 namespace pywrap {
 
-int test();
+using newprofiler::test;
 
 }
 }
